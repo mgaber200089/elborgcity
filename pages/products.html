@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../jvs/script.js">
+    <title> المنتجات</title>
+</head>
+<body>
+
+    <nav class="navbar" dir="rtl">
+        <br> <br>
+
+        <div class="brand-title"> المدينة الأمنة</div>
+        <a href="#" class="toggle-button">
+        <span class="bar" ></span>
+        <span class="bar" ></span>
+        <span class="bar" ></span> 
+        </a>
+        <div class="navbar-links">
+            <ul>
+                <li><a href="../pages/Contact.html">Contact</a></li>
+                <li><a href="../pages/about.html">About</a></li> 
+                <li><a href="../pages/mangment program.html">Mangment Program</a></li> 
+                <li><a href="../pages/Time Table.html">Time Table</a></li>
+                <li><a href="../pages/products.html">Products</a></li>
+                <li><a href="../pages/index.html">Home</a></li>
+    </ul>
+    </div>
+</nav>
+
+
+<img id="bg" src="../img/prodacts.jpg">
+
+
+
+    
+</body>
+
+<script>
+
+
+const toggleButton = document.getElementsByClassName('toggle-button')[0]
+const navbarLinks = document.getElementsByClassName('navbar-links')[0]
+
+toggleButton.addEventListener('click', () => {
+   navbarLinks.classList.toggle('active')
+})
+
+</script>
+
+</html>
